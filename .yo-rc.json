@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "py.gov.asuncion.armory",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.1.0",
+    "applicationType": "microservice",
+    "baseName": "armory",
+    "packageName": "py.gov.asuncion.armory",
+    "packageFolder": "py/gov/asuncion/armory",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "consul",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "9a12372f14971595ed4e9ec3752fa9027c7bf50f",
+    "enableTranslation": true,
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "yarn",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "de",
+      "hu",
+      "es"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
